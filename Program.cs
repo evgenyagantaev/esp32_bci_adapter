@@ -39,9 +39,6 @@ namespace Central2
 
         public static void Main()
         {
-            Console.WriteLine("Sample Client/Central 2 : Collect data from Environmental sensors");
-            Console.WriteLine("Searching for Environmental Sensors");
-
             // Create a watcher
             BluetoothLEAdvertisementWatcher watcher = new();
             watcher.ScanningMode = BluetoothLEScanningMode.Active;
